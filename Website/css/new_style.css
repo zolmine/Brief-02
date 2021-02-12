@@ -1,0 +1,397 @@
+.pd_pg{
+    padding: 3% 5%;
+}
+
+.card_menu{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 80%;
+    
+}
+.card_menu h1{
+    max-width: fit-content;
+    text-align: center;
+}
+.body {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    display: flex;
+  }
+  .btn{
+      width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+      
+  
+  .btn:hover , .btn_event .button_section a:hover{
+    background-color: #010701; /* Green */
+    color: white;
+  }
+  .btn_{
+    justify-content: center;
+    display: flex; 
+ }
+ .hero01{
+   
+  background: linear-gradient(#81256c7d, #81256c3b), url(../images/banner2.jpg);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  text-align: center;
+ }
+ .hero02{
+   
+  background: linear-gradient(#81256c7d, #81256c3b), url(../images/banner3.jpg);
+  background-size: cover;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  text-align: center;
+ }
+ .header_events{
+   align-items: center;
+   text-align: center;
+ }
+ 
+    .header_events h1{
+    text-align: center;
+    font-size: 51px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 182px;
+
+    }
+    .header_events p{
+      text-align: center;
+      font-size: 17px;
+      color: #fff;
+      margin-top: 10px;
+      
+      }
+      .btn_event{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 40%;
+        margin: 1% auto 0;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-bottom: 50px;
+        
+      }
+      .btn_event .button_section_register a{
+        
+        color: rgb(255, 246, 246);
+        background: transparent;
+        
+        padding: 15px 41px;
+        float: left;
+        font-size: 15px;
+        font-weight: 400;
+        border: solid #fff 2px;
+        border-radius: 30px;
+        
+      }
+      .btn_event .button_section1 a{
+        background-color: rgb(255, 254, 254);
+        color: rgb(10, 10, 10);
+        opacity: 0.5;
+        
+        padding: 15px 60px 15px 60px;
+        float: left;
+        font-size: 15px;
+        font-weight: 400;
+        border: solid #fff 2px;
+        border-radius: 30px;
+        
+      }
+      .border_event{
+        border-radius: 34px;
+        border: #707070 solid 2px !important;
+        padding: 50px 21px;
+        margin: 10%;
+        margin-top: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .border_event img{
+        max-width: 42%;
+        height: auto;
+        border-radius: 34px;
+      }
+      .read_btn a{
+        background: #81256c;
+        color: #f8f9fa;
+        padding: 15px 60px 15px 60px;
+        /* float: left; */
+        font-size: 15px;
+        /* font-weight: 400; */
+        /* border: solid #81256c 2px; */
+        border-radius: 30px;
+        /* margin: 60px 0px 60px 0px; */
+        margin-bottom: 100px;
+      }
+      .read_btn{
+        text-align: center;
+        margin: 50px;
+      }
+
+      .hero {
+        overflow: hidden;
+        height: 100vh;
+    }
+    
+    
+    
+    .my-about {
+        text-align: center;
+        padding: 90px 0px;
+    }
+    .my-about h2 {
+        padding: 0px 0px 20px 0px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #b32137;
+        line-height: 50px;
+    }
+    .my-about .inner-my-about {
+        display: flex;
+    }
+    .my-about .inner-my-about > div {
+        margin: 20px
+    }
+    .my-about .inner-my-about h4 {
+        color: #b32137;
+        font-size: 24px;
+    }
+    
+    .my-about a {
+        width: 200px;
+        font-size: 17px;
+        padding: 20px 0px;
+        background-color: #81256c;
+        color: #fff;
+        display: inline-block;
+        line-height: 20px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .my-about a:hover {
+        background-color: #000;
+    }
+    .my-date {
+        text-align: center;
+        padding: 70px 0;
+        color: white;
+        background: rgb(129,37,108);
+        background: linear-gradient(rgba(129,37,108,0.78), rgba(129,37,108,0.78)),url(../images/hero.jpg);
+        background-size: cover;
+    
+    }
+    .my-date .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .my-date .content h4 {
+        display: inline;
+        color: white;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .my-date .content i {
+        margin-right: 15px;
+        font-size: 36px;
+    }
+    .my-date a {
+        width: 200px;
+        font-size: 17px;
+        padding: 20px 0px;
+        background-color: #fff;
+        color: #81256c;
+        display: inline-block;
+        line-height: 20px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .nominated {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        padding-left: 20px;
+    }
+    
+    
+    
+    
+    .nominated h2 {
+    
+        padding: 0px 0px 20px 0px;
+        font-size: 34px;
+        line-height: 36px;
+        /* font-weight: bold; */
+        color: #b32137;
+    }
+    .my-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+    
+    }
+    .my-col {
+        flex: 0 0 25%;
+    }
+    .my-col h4 {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 600;
+        color: #272727;
+    }
+    .my-col p {
+        opacity: 0.4;
+        font-style: italic;
+        line-height: 16px;
+    }
+    .my-col .cover-container {
+        margin-right: 5px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    
+    }
+    .my-col .cover-container img {
+        transition: 400ms;
+    }
+    .my-col .cover-container:hover img {
+        transform: scale(1.05);
+    }
+    
+    .input_mail input[type=text] {
+      width: 30%;
+      padding: 9px 43px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      opacity: 0.5;
+    }
+    .input_mail input[type=text]:hover {
+      width: 32%;
+      opacity: 1;
+      
+    }
+    .input_mail a{
+      background-color: black;
+      color: white;
+      opacity: 0.5;
+     
+      padding: 8px ;
+      text-align: center;
+      
+      display: inline-block;
+      font-size: 16px;
+    }
+    .input_mail a:hover{
+      
+      opacity: 1;
+      
+    }
+    .border_annonce{
+      border-radius: 34px;
+      border: #707070 solid 2px !important;
+      
+      text-align: center;
+    }
+    .vecteur{
+      display: flex;
+      justify-content: space-around;
+      
+    }
+    .vecteur .card1{
+      
+      color: #fff;
+     
+      width: 30%;
+      margin-bottom: 30px;
+      text-align: center;
+      
+    }
+    .vecteur .card1 h2 {
+      color: #B32137;
+    }
+    .vecteur .card1 p{
+      background-color: #B32137 ;
+      border-radius: 34px;
+      border: #707070 solid 2px !important;
+      padding: 31px 21px;
+    }
+    
+    @media only screen and (max-width: 560px) {
+      .vecteur {
+        display: block;
+        justify-content: space-around;
+    }
+      .vecteur .card1 {
+        width: 100%;
+        margin-bottom: 30px;   
+    }
+    .vecteur .card1 p{
+      margin: 11px;
+    }
+    .my-row{
+      display: block;
+    }
+    .my-col{
+      display: block;
+    }
+    .button_section_register a{
+      margin-top: 20px;
+    }
+    .my-date .content h4{
+      font-size: 20px;
+    }
+    }
+
+    @media only screen and (max-width: 768px){
+      .my-row{
+        display: block;
+        width: auto;
+      }
+      .my-col{
+        display: block;
+        width: auto;
+      }
+      .button_section_register a{
+        margin-top: 20px;
+      }
+    }
+    @media only screen and (max-width: 1993px){
+      .button_section1{
+       margin-top: 10px;
+      }
+      .button_section_register a{
+        margin-top: 20px;
+      }
+    }
